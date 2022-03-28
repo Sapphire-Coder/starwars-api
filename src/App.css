@@ -1,38 +1,23 @@
-.App {
+body{
+  background-color: black;
+}
+
+#header{
   text-align: center;
+  color: rgb(225, 56, 231);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.shipCard{
+  text-align: center;
+  background-color: green;
+  color: orange;
+  width: 90%;
+  height: 125px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
